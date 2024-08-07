@@ -59,3 +59,10 @@ print("\n")
 print("Left justification", text.ljust(16, "*"))
 print("Right justification", text.rjust(16, "*"))
 print("Center justification", text.center(16, "*"))
+
+#Format variables using a string.format() method.
+totalMoney = 1000
+quantity = 3
+price = 450
+line = "I have {0} dollars so I can buy {1} football for {2} dollars."
+print(line.format(totalMoney,quantity,price))
